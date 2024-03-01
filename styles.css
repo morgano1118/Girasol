@@ -1,0 +1,128 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #b5efaa;
+  }
+  
+  #container {
+    position: relative;
+  }
+  
+  #girasol {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .rama {
+    position: absolute;
+    width: 10px;
+    height: 100px;
+    background-color: green;
+    top: 50%;
+    left: 50%;
+    transform-origin: bottom center; /* Establecer el origen de la transformación */
+  }
+  
+  .maceta {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    background-color: rgb(165, 42, 42);
+    border-radius: 20px;
+    top: 90px;
+    left: -35px;
+  }
+  
+  .cabeza {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(179, 55, 55);
+    border-radius: 50%;
+    top: -110px;
+    left: -50px;
+  }
+  
+  .petal {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    top: 35px;
+    left: 40px;
+  }
+  
+  .petal:nth-child(1) {
+    transform: rotate(30deg) translate(63px) rotate(-30deg);
+  }
+  
+  .petal:nth-child(2) {
+    transform: rotate(60deg) translate(66px) rotate(-60deg);
+  }
+  
+  .petal:nth-child(3) {
+    transform: rotate(90deg) translate(67px) rotate(-90deg);
+  }
+  
+  .petal:nth-child(4) {
+    transform: rotate(120deg) translate(68px) rotate(-120deg);
+  }
+  
+  .petal:nth-child(5) {
+    transform: rotate(150deg) translate(70px) rotate(-150deg);
+  }
+  
+  .petal:nth-child(6) {
+    transform: rotate(180deg) translate(71px) rotate(-180deg);
+  }
+  
+  .petal:nth-child(7) {
+    transform: rotate(210deg) translate(70px) rotate(-210deg);
+  }
+  
+  .petal:nth-child(8) {
+    transform: rotate(240deg) translate(68px) rotate(-240deg);
+  }
+  
+  .petal:nth-child(9) {
+    transform: rotate(270deg) translate(66px) rotate(-270deg);
+  }
+  
+  .petal:nth-child(10) {
+    transform: rotate(300deg) translate(64px) rotate(-300deg);
+  }
+  
+  .petal:nth-child(11) {
+    transform: rotate(330deg) translate(62px) rotate(-330deg);
+  }
+  .petal:nth-child(12) {
+    transform: rotate(360deg) translate(62px) rotate(-360deg);
+  }
+  .texto {
+    position: absolute;
+    font-family: "Arial", sans-serif; /* Cambiar la tipografía a una bonita */
+    font-size: 24px; /* Tamaño del texto */
+    color: #333; /* Color del texto */
+    top: 130px; /* Ajustar la posición vertical */
+    left: 50%; /* Centrar horizontalmente */
+    transform: translateX(-50%); /* Centrar horizontalmente */
+  }
+  .texto2 {
+    position: absolute;
+    font-family: "Arial", sans-serif; /* Cambiar la tipografía a una bonita */
+    font-size: 14px; /* Tamaño del texto */
+    color: #333; /* Color del texto */
+    top: 280px; /* Ajustar la posición vertical */
+    left: 10%; /* Centrar horizontalmente */
+    transform: translateX(-50%); /* Centrar horizontalmente */
+  }
+  .corazon {
+    color: red; /* Color rojo para el corazón */
+  }
+  
